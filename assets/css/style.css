@@ -1,0 +1,274 @@
+.prebody {
+    background-color: black;
+  } 
+
+body {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(100, 117, 131));
+    background-size: 100%;
+    margin: 0; 
+    padding: 0;
+  } 
+
+.texty {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.whitesmoke {
+    color: black;
+    background-color: aqua;
+ }
+ 
+
+img:hover {
+    filter: none;
+    cursor: pointer;
+    transition: linear 5s;
+}
+
+a:hover {
+    color: rgb(128, 128, 255);
+    text-decoration: underline;
+}
+
+
+h2 {
+    color: #32a2a8;
+font-size: 30px;
+text-decoration: none;
+font-weight: bold;
+width: 60%;
+height: 50%;
+}
+
+
+header {
+    background-color: #93ddff;
+    height: 150px;
+
+}
+
+p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    text-align: left;
+    font-weight: normal;
+    color: white;
+}
+
+
+.a {
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#subhead {
+    font-size: 30px;
+}
+
+nav {
+    display: inline-block;
+    float: center;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 40px;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+} 
+
+p.br {
+    font-size: 12px;
+    color: red;
+} 
+
+.test {
+    text-align: center;
+}
+
+
+nav a {color: white;
+    font-size: 22px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+#white {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Russo One', sans-serif;
+}
+
+
+
+.songs {
+    color: pink;
+    font-size: 22px;
+}
+
+.centered {
+    display: inline-block;
+    text-align: center;
+
+}
+
+
+.floatRight{float:right;margin-left:20px}
+
+.gradient-text {
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-family: 'Russo One', sans-serif;
+}
+
+#gradient-text2 {
+    background-color: #f3ec78;
+    background-image: linear-gradient(145deg, #fcd34c, #31dfe6);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Russo One', sans-serif;
+}
+
+
+.central-text {
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    font-family: 'Russo One', sans-serif;
+
+}
+
+
+.gradient-text:hover a p.new-label:after{
+    content: 'ADD';
+}
+
+.label:after{
+    content:'text I want to change';
+}
+.label:hover:after{
+    content:'changed text';
+}
+
+#changeText {
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-family: 'Russo One', sans-serif;
+
+}
+
+#music {
+    font-size: 80px;
+}
+
+#artists {
+    font-size: 20px;
+}
+
+#rotate-text {
+    font-size: 30px;
+    color: white;
+    width: 25px;
+    transform: rotate(90deg);
+ }
+
+#music-box {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.sixpm {
+  position: absolute;
+width: 380px;
+height: 71px;
+font-family: Russo One;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 43px;
+
+color: #FF2828; }
+
+
+
+
+#lyric {
+
+font-family: Russo One;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+color: white;
+}
+
+#artist {
+
+    
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: white;
+}
+
+
+    .container {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        /* background:mistyrose; */
+        height: 15vw;
+    }
+    .content {
+        position: relative;
+        flex: 0.15;
+        justify-content: center;
+        /* width:100%; */
+        /* height:calc(100% - 2em); */
+        /* margin:.5em .5em 1.5em; */
+        /* background:cyan; */
+    }
+
+
+    .content:hover:after {
+        content:attr(data-legend);
+        position:absolute;
+        left:0;
+        bottom:0;
+        top: 20;
+        right:0;
+        font-family: Russo One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: white;
+        text-align:match-parent;
+        transform:translateY(30%);
+    }
